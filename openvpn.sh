@@ -1,4 +1,12 @@
 #!/bin/bash
+#######################################################
+# $Name:         openvpn.sh
+# $Version:      v1.0
+# $Author:       Tinymeng <666@majiameng.com>
+# $Create Date:  2020-04-24
+# $Modify Date:  2020-04-24
+# $Description:  OpenVPN liunx安装
+#######################################################
 
 # Shell Env
 SHELL_DIR=$(cd $(dirname "$0") ; pwd)
