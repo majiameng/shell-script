@@ -25,7 +25,7 @@ OPENVPN_SERVER_CRL="${OPENVPN_CONF}/crl.pem"
 # 用户压缩包目录
 USER_PACKAGEDIR="/tmp/openvpn-user-zips"
 # 客户端软件
-CLIENT_PACKAGFILE="https://static.saintic.com/download/thirdApp/OpenVPN/openvpn-install-2.3.6-I601-x86_64.exe"
+CLIENT_PACKAGFILE="https://github.com/majiameng/liunx-package/blob/master/openvpn/openvpn-install-2.3.6-I601-x86_64.exe"
 
 #Write Log 
 function show_err(){

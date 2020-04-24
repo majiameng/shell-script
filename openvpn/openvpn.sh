@@ -34,10 +34,10 @@ function install() {
     cd $SOFT_DIR
     [ "$?" != "0" ] && exit 1
 
-    wget -c https://static.saintic.com/download/thirdApp/OpenVPN/openvpn-2.1_rc21.tar.gz
+    wget -c https://github.com/majiameng/liunx-package/blob/master/openvpn/openvpn-2.1_rc21.tar.gz
     [ "$?" != "0" ] && exit 1
 
-    wget -c https://static.saintic.com/download/thirdApp/OpenVPN/openvpn-2.1_rc21_eurephia.patch
+    wget -c https://github.com/majiameng/liunx-package/blob/master/openvpn/openvpn-2.1_rc21_eurephia.patch
     [ "$?" != "0" ] && exit 1
 
     yum -y install pam-devel openssl-devel lzo-devel automake gcc gcc-c++ patch pkcs11-helper pkcs11-helper-devel
