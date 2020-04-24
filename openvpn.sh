@@ -80,7 +80,7 @@ function postcheck() {
     echo 'net.ipv4.ip_forward = 1' >> /etc/sysctl.conf
     echo "现在OpenVPN已经安装完成，您需要根据实际情况修改/etc/openvpn/server.conf配置文件。"
     echo "修改完毕，您应该使用\"sysctl -p\"命令使转发功能生效(若已设置请忽略)。"
-    echo "现在需要添加用户，若使用证书方式，可以使用此脚本添加或吊销用户证书：https://github.com/majiameng/scripts/openvpn_usermanager.sh"
+    echo "现在需要添加用户，若使用证书方式，可以使用此脚本添加或吊销用户证书：https://github.com/majiameng/scripts/blob/master/openvpn_usermanager.sh"
     echo "启动OpenVPN命令：service openvpn start"
 }
 
